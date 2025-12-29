@@ -39,7 +39,7 @@ Using these variables, the project addresses the following questions.
 The analysis is organized into several focused notebooks, each with a clear goal.
 
 - `notebooks/01_data_preparation.ipynb`  
-  - Load `states.csv`, clean percentage and currency fields, convert the Medicaid expansion flag to a Boolean, and handle missing values.
+  - Load `states.csv`, clean percentage and currency fields, and handle missing values.
 
 - `notebooks/02_uninsured_trends.ipynb`  
   - Describe uninsured rates in 2010 and 2015, compute changes by state, and summarize national patterns.
