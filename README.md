@@ -81,5 +81,4 @@ Visualizations from these notebooks (bar charts, scatter plots, and maps, if use
   - `03_medicaid_expansion_vs_nonexpansion.ipynb`  
   - `04_marketplace_coverage.ipynb`  
   - `05_uninsured_rate_projection.ipynb`  
-- `plots/` – Exported figures used in the portfolio.  
-- `requirements.txt` – Python dependencies (for example: pandas, numpy, matplotlib, seaborn, statsmodels, jupyter). 
+- `plots/` – Exported figures used in the portfolio.
