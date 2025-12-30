@@ -80,5 +80,4 @@ Visualizations from these notebooks (bar charts, scatter plots, and maps, if use
   - `02_uninsured_trends.ipynb`  
   - `03_medicaid_expansion_vs_nonexpansion.ipynb`  
   - `04_marketplace_coverage.ipynb`  
-  - `05_uninsured_rate_projection.ipynb`  
-- `plots/` – Exported figures used in the portfolio.
+  - `05_uninsured_rate_projection.ipynb`
