@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This portfolio examines how health insurance coverage changed across U.S. states before and after the Affordable Care Act (ACA), focusing on the period 2010–2016 using the provided `states.csv` dataset. It analyzes uninsured rates, marketplace enrollment, Medicaid expansion status, and public program enrollment to understand how policy and program changes affected coverage nationally and by state.
+This portfolio examines how health insurance coverage changed across U.S. states before and after the Affordable Care Act (ACA), focusing on the period 2010–2016 using the provided `states_hic.csv` dataset. It analyzes uninsured rates, marketplace enrollment, Medicaid expansion status, and public program enrollment to understand how policy and program changes affected coverage nationally and by state.
 
 The project also uses a regression-based scenario model to explore what could happen to the nationwide uninsured rate over the next five years under different policy and coverage assumptions.
 
@@ -65,16 +65,17 @@ The analysis is organized into several focused notebooks, each with a clear goal
     - `Marketplace Health Insurance Coverage (2016)`  
     - `Marketplace Tax Credits (2016)`  
     - `Average Monthly Tax Credit (2016)`  
-    - `Employer Health Insurance Coverage (2015)` (possibly scaled).
+    - `Employer Health Insurance Coverage (2015)` .
   - Use the fitted regression to construct **scenarios** for the next five years (e.g., more Medicaid expansions, changes in marketplace enrollment), and combine those effects with an external starting national uninsured rate to illustrate possible future paths.
 
-Visualizations from these notebooks (bar charts, scatter plots, and maps, if used) are exported into the `plots/` directory for use in the portfolio narrative.
 
 ## Repository Structure
 
 - `README.md` – Project overview, data description, modeling approach, and analysis roadmap (this file).  
 - `data/`  
-  - `states.csv` – State-level ACA coverage and enrollment indicators.
+  - `states_hic.csv` – State-level ACA coverage and enrollment indicators.
+  - `states_hic_cleaned.csv` – Cleaned dataset.
+
 - `notebooks/`  
   - `01_data_preparation.ipynb`  
   - `02_uninsured_trends.ipynb`  
